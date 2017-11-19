@@ -3,8 +3,8 @@
 #include <bitset>
 #include <cstdlib>
 #include <algorithm>
-#include "PuzzleCreator.h"
-#include "PuzzleSolverGrp3.h"
+#include "Creator/PuzzleCreator.h"
+#include "Solver/PuzzleSolverGrp3.h"
 
 using namespace std;
 

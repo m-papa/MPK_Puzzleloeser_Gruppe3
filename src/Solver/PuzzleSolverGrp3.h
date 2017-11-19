@@ -1,5 +1,5 @@
-#include "Part.h"
-#include "SolutionElement.h"
+#include "../Input/Part.h"
+#include "../Output/SolutionElement.h"
 #include <vector>
 
 class PuzzleSolverGrp3

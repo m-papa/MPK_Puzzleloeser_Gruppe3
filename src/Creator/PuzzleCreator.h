@@ -5,7 +5,7 @@
 #include <bitset>
 #include <cstdlib>
 #include <algorithm>
-#include "Part.h"
+#include "../Input/Part.h"
 
 using namespace std;
 
