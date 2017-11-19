@@ -15,6 +15,6 @@ private:
 	vector <Part *> m_corners_array;
 	vector <Part *> m_edges_array;
 	vector <Part *> m_inners_array;
-	vector <SolutionElement> m_solutionVector;
+	vector < vector <SolutionElement> > m_solutionVector;
 };
 

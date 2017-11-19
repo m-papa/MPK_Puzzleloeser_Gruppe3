@@ -23,12 +23,15 @@ PuzzleSolverGrp3::PuzzleSolverGrp3(vector <Part> part_array, vector <Part *> cor
 		}
 	}
 
-	m_solutionVector = vector <SolutionElement> (numSpalten * numZeilen);
+	m_solutionVector = vector<vector<SolutionElement>>(numSpalten, vector<SolutionElement>(numZeilen));
 }
 
 void PuzzleSolverGrp3::SolvePuzzle()
 {
-	cout << "Groesse:" << m_solutionVector.size();
+	cout << "Groesse:" << m_solutionVector.size() << endl;
+	cout << "Groesse:" << m_solutionVector[1].size() << endl;
+	cout << "Groesse:" << m_solutionVector[1][0].index << endl;
+
 }
 
 PuzzleSolverGrp3::~PuzzleSolverGrp3()
