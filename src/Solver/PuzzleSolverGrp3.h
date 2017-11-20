@@ -1,6 +1,7 @@
 #include "../Input/Part.h"
 #include "../Output/SolutionElement.h"
 #include <vector>
+#include <cstdlib>
 
 class PuzzleSolverGrp3
 {

@@ -32,6 +32,13 @@ void PuzzleSolverGrp3::SolvePuzzle()
 	cout << "Groesse:" << m_solutionVector[1].size() << endl;
 	cout << "Groesse:" << m_solutionVector[1][0].index << endl;
 
+	int posX = 0;
+
+	for (int i = 0; i < 500; i++)
+	{
+		posX = rand() % (m_solutionVector.size()-2) + 1;
+		cout << posX << endl;
+	}
 }
 
 PuzzleSolverGrp3::~PuzzleSolverGrp3()
