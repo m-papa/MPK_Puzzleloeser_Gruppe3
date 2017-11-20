@@ -12,7 +12,7 @@ public:
 	void SolvePuzzle();
 
 private:
-	vector <Part>	m_part_array;
+	vector <Part>*	m_part_array;
 	vector <Part *> m_corners_array;
 	vector <Part *> m_edges_array;
 	vector <Part *> m_inners_array;
